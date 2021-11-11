@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="JavaScript - Basic Operators">
+    <title>JavaScript - DOM -24</title>
+    <style type="text/css">
+        li{
+            margin-bottom: 10px; 
+            text-decoration: line-through;           
+        }
+        
+        li button{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1> My ToDo List </h1>
+    <label for="text">Enter a ToDo list:</label>
+    <input type="text" name="name" id="name">
+    <button>Add list</button>
+    <ul>
+        
+    </ul>
+    
+    <script>
+        const list = document.querySelector('ul');
+        const input = document.querySelector('input');
+        const button = document.querySelector('button');
+        
+        button.onclick = function () {
+            let myItem = input.value;
+            input.value = '';
+            if(myItem== ""){
+                alert("Enter the item name");
+            }else{
+            const listItem = document.createElement('li');
+            const listText = document.createElement('span');
+            const listBtn1 = document.createElement('button');
+            const listBtn2 = document.createElement('button');
+            const listBtn3 = document.createElement('button');
+
+            listItem.appendChild(listText);
+            listText.textContent=myItem;
+            listItem.appendChild(listBtn1);
+            listBtn1.textContent='Completed';
+            listItem.appendChild(listBtn2);
+            listBtn2.textContent='Edit';
+            listItem.appendChild(listBtn3);
+            listBtn3.textContent='Delete';
+            list.appendChild(listItem);
+            listBtn1.onclick=function(){
+                (myItem.strike());
+            }
+            listBtn2.onclick=function(){
+                input.value=myItem;
+                list.removeChild(listItem) ; 
+                input.focus();   
+            }
+             listBtn3.onclick = function () {
+                list.removeChild(listItem);                
+            }        
+            input.focus();   
+           } 
+        }       
+    </script>
+</body>
+</html>

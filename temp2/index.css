@@ -1,0 +1,187 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black;
+	font-family: sans-serif;
+}
+
+.nav ul {
+	list-style: none;
+
+}
+
+.nav ul li{
+	
+	background-color: skyblue;
+	
+	color: white;
+	padding: 20px;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+.image1 img{
+	width: 1200px;
+	height: 500px;
+	margin-left: 80px;
+}
+.box1{
+	background-color: tomato;
+	width: 300px;
+}
+.box1 h3{
+	padding: 10px;
+	text-align: center;
+}
+.box1 p{
+
+	color: black;
+	text-align: center;
+}
+.box2{
+	background-color: white;
+	width: 250px;
+	height: 200px;
+}
+
+.box2 h3{
+	padding: 20px;
+	margin-top: 40px;
+	text-align: center;
+	color: black;
+}
+.box2 p{	
+	text-align: center;
+	color: black;
+}
+.box3 img{
+	width: 250px;
+	height: 200px;
+}
+.box4 img{
+	width: 500px;
+	height: 400px;
+}
+.box5{
+	background-color: blue;
+	width: 150px;
+	height: 200px;
+	
+}
+.box5 p{
+	text-align: center;
+	color: white;
+	padding: 40px;
+}
+.box6 img{
+	width: 500px;
+	height: 400px;
+}
+.box7{
+	background-color: tomato;
+	width: 150px;
+	height: 200px;
+	
+}
+.box7 p{
+	text-align: center;
+	color: white;
+	padding: 40px;
+}
+.box8{
+	background-color: white;
+	width: 250px;
+	height: 200px;
+}
+
+.box8 h3{
+	padding: 20px;
+	margin-top: 40px;
+	text-align: center;
+	color: black;
+}
+.box8 p{	
+	text-align: center;
+	color: black;
+}
+.box9 img{
+	width: 250px;
+	height: 200px;
+}
+.box10{
+	background-color: white;
+	width: 250px;
+	height: 400px;
+}
+
+.box10 h3{
+	padding: 20px;
+	margin-top: 40px;
+	text-align: center;
+	color: black;
+}
+.box10 p{	
+	text-align: center;
+	color: black;
+}
+.box11 img{
+	width: 250px;
+	height: 200px;
+}
+.box12{
+	background-color: #333;
+	width: 250px;
+	height: 200px;
+}
+
+.box12 h3{
+	padding: 20px;
+	margin-top: 40px;
+	text-align: center;
+	color: #fff;
+}
+.box12 p{	
+	text-align: center;
+	color: #fff;
+}
+.box13{
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	width: 120px;
+}
+.box13 a{
+	color: white;
+	text-align: center;
+}
+.box14{
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	width: 120px;
+}
+.box14 a{
+	color: white;
+	text-align: center;
+}
+.box15{
+	background-color: #333;
+	width: 460px;
+	padding: 20px;
+}
+.box15 p{
+	color: white;
+}
+.box16{
+	background-color: skyblue;
+	width: 470px;
+	padding: 15px;
+}
+.box16 h3{
+	color: white;
+}
+

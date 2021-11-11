@@ -1,0 +1,98 @@
+.nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.nav ul li a{
+	margin-right: 10px;
+}
+
+.nav ul li:nth-child(1){
+	margin-right: 700px;
+	padding: 10px;
+	text-align: center;
+	background-color: tomato;
+}
+.image1{
+	position: relative;
+}
+.box1{
+	position: absolute;
+	top: 477px;
+	left: 200px;
+}
+.box2{
+	position: absolute;
+	left: 200px;
+	top: 590px;
+}
+.box3{
+	position: absolute;
+	left: 450px;
+	top: 590px;
+}
+.box4{
+	position: absolute;
+	left: 700px;
+	top: 590px;
+}
+.box5{
+	position: absolute;
+	top: 700px;
+	left: 700px;
+}
+.box6{
+	position: absolute;
+	top: 790px;
+	left: 200px;
+}
+.box7{
+	position: absolute;
+	top: 990px;
+	left: 200px;
+}
+.box8{
+	position: absolute;
+	top: 1190px;
+	left: 200px;
+}
+.box9{
+	position: absolute;
+	top: 1190px;
+	left: 450px;
+}
+.box10{
+	position: absolute;
+	top: 990px;
+	left: 700px;
+}
+.box11{
+	position: absolute;
+	top: 990px;
+	left: 950px;
+}
+.box12{
+	position: absolute;
+	top: 1190px;
+	left: 950px;
+}
+.box13{
+	position: absolute;
+	top: 1200px;
+	left: 750px;
+}
+.box14{
+	position: absolute;
+	top: 1300px;
+	left: 1000px;
+}
+.box15{
+	position: absolute;
+	top: 1390px;
+	left: 200px;
+}
+.box16{
+	position: absolute;
+	top: 1390px;
+	left: 700px;
+}
